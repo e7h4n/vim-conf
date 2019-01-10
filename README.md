@@ -5,25 +5,25 @@ Personal vim configurations.
 ## Configuration change
 
 ### Feature enabled
-* [autoindent]
-* undofile
-* ignorecase & smartcase
-* cursorline
-* relativenumber
+* [autoindent](http://vimdoc.sourceforge.net/htmldoc/options.html#'autoindent')
+* [undofile](http://vimdoc.sourceforge.net/htmldoc/options.html#'undofile')
+* [ignorecase](http://vimdoc.sourceforge.net/htmldoc/options.html#'ignorecase') & [smartcase](http://vimdoc.sourceforge.net/htmldoc/options.html#'smartcase')
+* [cursorline](http://vimdoc.sourceforge.net/htmldoc/options.html#'cursorline')
+* [relativenumber](http://vimdoc.sourceforge.net/htmldoc/options.html#'relativenumber')
 
 ### Feature disabled
-* swapfile
-* joinspaces
+* [swapfile](http://vimdoc.sourceforge.net/htmldoc/options.html#'swapfile')
+* [joinspaces](http://vimdoc.sourceforge.net/htmldoc/options.html#'joinspaces')
 
 ### Formatting
-* expandtab
-* shiftwidth=4
-* softtabstop=4
-* tabstop=4
+* [expandtab](http://vimdoc.sourceforge.net/htmldoc/options.html#'expandtab')
+* [shiftwidth=4](http://vimdoc.sourceforge.net/htmldoc/options.html#'shiftwidth')
+* [softtabstop=4](http://vimdoc.sourceforge.net/htmldoc/options.html#'softtabstop')
+* [tabstop=4](http://vimdoc.sourceforge.net/htmldoc/options.html#'tabstop')
 
 ### Theme
 
-onedark if installed.
+[onedark](https://github.com/joshdick/onedark.vim) if installed.
 
 ### Keymap
 
@@ -40,32 +40,20 @@ onedark if installed.
 
 ## Plugins
 
-### Airline
-
-### BufExplorer
-
-### CtrlP
-
-### Emmet
-
-### Gist
-
-### IndentGuides
-
-### NerdTree
-
-### Surround
-
-### Tabular
-
-### Undotree
-
-### Vim Better Whitespace
-
-### Vitality
+* [vim-airline](https://github.com/vim-airline/vim-airline): use onedark theme
+* [bufexplorer](https://github.com/jlanzarotta/bufexplorer): map `<SPC>` to open bufexplorer
+* [ctrlp](https://github.com/ctrlpvim/ctrlp.vim)
+ * use `ag` as search command and enable async search
+ * use `CtrlPMixed` as default search command
+ * disable cache
+* [emmet](https://github.com/mattn/emmet-vim): use `<C-k>` as leader key
+* [gist-vim](https://github.com/mattn/gist-vim): default to private gist
+* [nerdtree](https://github.com/scrooloose/nerdtree): use `<Leader>nt` open NerdTree
+* [undotree](https://github.com/mbbill/undotree): use `<Leader>ut` open UndoTree
+* [vim-better-space](https://github.com/ntpeters/vim-better-whitespace): default enable for `javascript`, `c`, `cpp`, `java`, `html`, `ruby`, `css`, `less`, `python`, `bash`, `markdown`
 
 # License
 
 MIT
 
-[autoindent](http://vimdoc.sourceforge.net/htmldoc/options.html#'autoindent')
+
