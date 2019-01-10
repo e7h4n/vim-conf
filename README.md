@@ -2,6 +2,20 @@
 
 Personal vim configurations.
 
+## Requirement
+
+* [neovim](https://neovim.io)
+* [vim-plug](https://github.com/junegunn/vim-plug)
+* [ag](https://github.com/ggreer/the_silver_searcher)
+
+## Installation
+
+Only [vim-plug](https://github.com/junegunn/vim-plug) is supported because the plugin detective mechanism.
+
+```
+Plug 'perfectworks/vim-conf'
+```
+
 ## Configuration change
 
 ### Feature enabled
@@ -27,33 +41,33 @@ Personal vim configurations.
 
 ### Keymap
 
-* use `jj` as `<ESC>`
-* use `,` as `<Leader>`
-* make `Y` as `y$` to be consistent with C and D
-* `gp` and `gP` to paste yank register
-* `<C-A>` and `<C-E>` implement emacs style command line cursor movement
-* swap `0` and `^` in normal mode for fast line head movement
-* `<leader>sh` to start shell
-* `<leader>/` to toggle highlight search
-* `<leader>fc` to find merge conflict markers
-* `:w!!` for sudo write
+* use `jj` as `<ESC>`.
+* use `,` as `<Leader>`.
+* make `Y` as `y$` to be consistent with C and D.
+* `gp` and `gP` to paste yank register.
+* `<C-A>` and `<C-E>` implement emacs style command line cursor movement.
+* swap `0` and `^` in normal mode for fast line head movement.
+* `<leader>sh` to start shell.
+* `<leader>/` to toggle highlight search.
+* `<leader>fc` to find merge conflict markers.
+* `:w!!` for sudo write.
 
 ## Plugins
 
-* [vim-airline](https://github.com/vim-airline/vim-airline): use onedark theme
-* [bufexplorer](https://github.com/jlanzarotta/bufexplorer): map `<SPC>` to open bufexplorer
+The following plugins will be tuned if they are managed by [vim-plug](https://github.com/junegunn/vim-plug).
+
+* [vim-airline](https://github.com/vim-airline/vim-airline): use onedark theme.
+* [bufexplorer](https://github.com/jlanzarotta/bufexplorer): map `<SPC>` to open bufexplorer.
 * [ctrlp](https://github.com/ctrlpvim/ctrlp.vim)
-  * use `ag` as search command and enable async search
-  * use `CtrlPMixed` as default search command
-  * disable cache
-* [emmet](https://github.com/mattn/emmet-vim): use `<C-k>` as leader key
-* [gist-vim](https://github.com/mattn/gist-vim): default to private gist
-* [nerdtree](https://github.com/scrooloose/nerdtree): use `<Leader>nt` open NerdTree
-* [undotree](https://github.com/mbbill/undotree): use `<Leader>ut` open UndoTree
-* [vim-better-space](https://github.com/ntpeters/vim-better-whitespace): default enable for `javascript`, `c`, `cpp`, `java`, `html`, `ruby`, `css`, `less`, `python`, `bash`, `markdown`
+  * use `ag` as search command and enable async search.
+  * use `CtrlPMixed` as default search command.
+  * disable cache.
+* [emmet](https://github.com/mattn/emmet-vim): use `<C-k>` as leader key.
+* [gist-vim](https://github.com/mattn/gist-vim): default to private gist.
+* [nerdtree](https://github.com/scrooloose/nerdtree): use `<Leader>nt` open NerdTree.
+* [undotree](https://github.com/mbbill/undotree): use `<Leader>ut` open UndoTree.
+* [vim-better-space](https://github.com/ntpeters/vim-better-whitespace): default enable for `javascript`, `c`, `cpp`, `java`, `html`, `ruby`, `css`, `less`, `python`, `bash`, `markdown`.
 
 # License
 
-MIT
-
-
+MIT.
