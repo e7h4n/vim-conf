@@ -11,6 +11,7 @@ set iskeyword-=-                                   " '-' is an end of word desig
 set iskeyword-=.                                   " '.' is an end of word designator
 set nojoinspaces                                   " Prevents inserting two spaces after punctuation on a join (J)
 set noswapfile
+set signcolumn=yes
 set smartcase                                      " Case sensitive when uc present
 set splitbelow                                     " Puts new split windows to the bottom of the current
 set splitright                                     " Puts new vsplit windows to the right of the current

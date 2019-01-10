@@ -27,6 +27,7 @@ This plugin follows the standard runtime path structure, and as such it can be i
 * [ignorecase](http://vimdoc.sourceforge.net/htmldoc/options.html#'ignorecase') & [smartcase](http://vimdoc.sourceforge.net/htmldoc/options.html#'smartcase')
 * [cursorline](http://vimdoc.sourceforge.net/htmldoc/options.html#'cursorline')
 * [relativenumber](http://vimdoc.sourceforge.net/htmldoc/options.html#'relativenumber')
+* [signcolumn=yes](http://vimdoc.sourceforge.net/htmldoc/options.html#'signcolumn')
 
 ### Feature disabled
 * [swapfile](http://vimdoc.sourceforge.net/htmldoc/options.html#'swapfile')
