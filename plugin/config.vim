@@ -36,9 +36,11 @@ set softtabstop=4 " Let backspace delete indent
 set tabstop=4     " An indentation every four columns
 
 " Terminal
-autocmd TermOpen * startinsert
-autocmd TermOpen * setlocal nornu
-autocmd TermOpen * setlocal nonu
+if has('nvim')
+    autocmd TermOpen * startinsert
+    autocmd TermOpen * setlocal nornu
+    autocmd TermOpen * setlocal nonu
+endif
 
 " Mappings
 " leader key
