@@ -41,7 +41,7 @@ This plugin follows the standard runtime path structure, and as such it can be i
 
 ### Theme
 
-[onedark](https://github.com/joshdick/onedark.vim) if installed.
+[vim-one](https://github.com/rakr/vim-one) if installed.
 
 ### Keymap
 
@@ -58,7 +58,7 @@ This plugin follows the standard runtime path structure, and as such it can be i
 
 The following plugins will be tuned:
 
-* [vim-airline](https://github.com/vim-airline/vim-airline): use onedark theme.
+* [vim-airline](https://github.com/vim-airline/vim-airline): use one theme.
 * [bufexplorer](https://github.com/jlanzarotta/bufexplorer): map `<SPC>` to open bufexplorer.
 * [ctrlp](https://github.com/ctrlpvim/ctrlp.vim)
   * use `ag` as search command and enable async search if `ag` is available
