@@ -60,9 +60,8 @@ The following plugins will be tuned:
 * [vim-airline](https://github.com/vim-airline/vim-airline): use onedark theme.
 * [bufexplorer](https://github.com/jlanzarotta/bufexplorer): map `<SPC>` to open bufexplorer.
 * [ctrlp](https://github.com/ctrlpvim/ctrlp.vim)
-  * use `ag` as search command and enable async search.
+  * use `ag` as search command and enable async search if `ag` is available
   * use `CtrlPMixed` as default search command.
-  * disable cache.
 * [emmet](https://github.com/mattn/emmet-vim): use `<C-k>` as leader key.
 * [gist-vim](https://github.com/mattn/gist-vim): default to private gist.
 * [nerdtree](https://github.com/scrooloose/nerdtree): use `<Leader>nt` open NerdTree.
