@@ -75,8 +75,5 @@ map <Leader>sh :terminal<CR>
 " search results. To clear search highlighting rather than toggle it on
 nmap <silent> <leader>/ :set invhlsearch<CR>
 
-" Find merge conflict markers
-map <leader>fc /\v^[<\|=>]{7}( .*\|$)<CR>
-
 " For when you forget to sudo.. Really Write the file.
 cmap w!! w !sudo tee % >/dev/null
