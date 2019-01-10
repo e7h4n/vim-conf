@@ -49,7 +49,6 @@ Plug 'perfectworks/vim-conf'
 * swap `0` and `^` in normal mode for fast line head movement.
 * `<leader>sh` to start shell.
 * `<leader>/` to toggle highlight search.
-* `<leader>fc` to find merge conflict markers.
 * `:w!!` for sudo write.
 
 ## Plugins
