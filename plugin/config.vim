@@ -68,9 +68,6 @@ nnoremap c^ c0
 nnoremap y0 y^
 nnoremap y^ y0
 
-" start shell
-map <Leader>sh :terminal<CR>
-
 " Most prefer to toggle search highlighting rather than clear the current
 " search results. To clear search highlighting rather than toggle it on
 nmap <silent> <leader>/ :set invhlsearch<CR>
