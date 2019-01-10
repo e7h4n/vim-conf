@@ -4,7 +4,6 @@ Personal vim configurations.
 
 ## Requirement
 
-* [neovim](https://neovim.io)
 * [vim-plug](https://github.com/junegunn/vim-plug)
 * [ag](https://github.com/ggreer/the_silver_searcher)
 
