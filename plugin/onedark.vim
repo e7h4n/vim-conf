@@ -1,3 +1,3 @@
-if exists('g:plugs') && has_key(plugs, 'onedark.vim')
+if &rtp =~ 'onedark.vim'
     colo onedark
 endif

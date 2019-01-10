@@ -4,16 +4,20 @@ Personal vim configurations.
 
 ## Requirement
 
-* [vim-plug](https://github.com/junegunn/vim-plug)
 * [ag](https://github.com/ggreer/the_silver_searcher)
 
 ## Installation
 
-Only [vim-plug](https://github.com/junegunn/vim-plug) is supported because the plugin detective mechanism.
+This plugin follows the standard runtime path structure, and as such it can be installed with a variety of plugin managers:
 
-```
-Plug 'perfectworks/vim-conf'
-```
+| Plugin Manager | Install with...                                                             |
+| -------------  | -------------                                                               |
+| Pathogen       | `git clone https://github.com/perfectworks/vim-conf ~/.vim/bundle/vim-conf` |
+| NeoBundle      | `NeoBundle 'perfectworks/vim-conf'`                                         |
+| Vundle         | `Plugin 'perfectworks/vim-conf'`                                            |
+| Plug           | `Plug 'perfectworks/vim-conf'`                                              |
+| Dein           | `call dein#add('perfectworks/vim-conf')`                                    |
+| minpac         | `call minpac#add('perfectworks/vim-conf')`                                  |
 
 ## Configuration change
 
@@ -51,7 +55,7 @@ Plug 'perfectworks/vim-conf'
 
 ## Plugins
 
-The following plugins will be tuned if they are managed by [vim-plug](https://github.com/junegunn/vim-plug).
+The following plugins will be tuned:
 
 * [vim-airline](https://github.com/vim-airline/vim-airline): use onedark theme.
 * [bufexplorer](https://github.com/jlanzarotta/bufexplorer): map `<SPC>` to open bufexplorer.

@@ -1,4 +1,4 @@
-if exists('g:plugs') && has_key(plugs, 'ctrlp.vim')
+if &rtp =~ 'ctrlp.vim'
     let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
     let g:user_command_async = 1
     let g:ctrlp_cmd = 'CtrlPMixed'

@@ -1,3 +1,3 @@
-if exists('g:plugs') && has_key(plugs, 'undotree')
+if &rtp =~ 'undotree'
     nnoremap <silent> <leader>u :UndotreeToggle<cr>
 endif

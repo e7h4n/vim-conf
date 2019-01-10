@@ -1,3 +1,3 @@
-if exists('g:plugs') && has_key(plugs, 'emmet-vim')
+if &rtp =~ 'emmet-vim'
     let g:user_emmet_leader_key = '<c-k>'
 endif

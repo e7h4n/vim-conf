@@ -1,4 +1,4 @@
-if exists('g:plugs') && has_key(plugs, 'bufexplorer')
+if &rtp =~ 'bufexplorer'
     map <space> :BufExplorer<cr>
 endif
 
