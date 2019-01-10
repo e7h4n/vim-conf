@@ -62,6 +62,7 @@ The following plugins will be tuned:
 * [ctrlp](https://github.com/ctrlpvim/ctrlp.vim)
   * use `ag` as search command and enable async search if `ag` is available
   * use `CtrlPMixed` as default search command.
+  * swap `<C-n/p>` and `<C-j/k>` of item select
 * [emmet](https://github.com/mattn/emmet-vim): use `<C-k>` as leader key.
 * [gist-vim](https://github.com/mattn/gist-vim): default to private gist.
 * [nerdtree](https://github.com/scrooloose/nerdtree): use `<Leader>nt` open NerdTree.
