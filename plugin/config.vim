@@ -22,7 +22,61 @@ set wildignore+=node_modules,*-target,target,tmp_*
 set wildignorecase
 set wildmode=list:longest,full                     " Command <Tab> completion, list matches, then longest common part, then all.
 
+" UI
+set ambiwidth=double                               " CJK characters support
+set cursorline                                     " Highlight current line
+set list                                           " Display specified blank characters
+set relativenumber                                 " Line numbers on
+set showmatch                                      " Show matching brackets/parenthesis
+
+" Formatting
+set expandtab     " Tabs are spaces, not tabs
+set shiftwidth=4  " Use indents of 4 spaces
+set softtabstop=4 " Let backspace delete indent
+set tabstop=4     " An indentation every four columns
+
 " Terminal
 autocmd TermOpen * startinsert
 autocmd TermOpen * setlocal nornu
 autocmd TermOpen * setlocal nonu
+
+" Mappings
+" leader key
+let mapleader = ','
+
+" Yank from the cursor to the end of the line, to be consistent with C and D.
+nnoremap Y y$
+
+" Paste yank register
+nmap gp "0p
+nmap gP "0P
+
+" map double j to <esc>
+inoremap <silent> jj <esc>
+
+" Emacs style command line course move
+cnoremap <C-A> <Home>
+cnoremap <C-E> <End>
+
+" Swap 0 and ^
+nnoremap 0 ^
+nnoremap ^ 0
+nnoremap d0 d^
+nnoremap d^ d0
+nnoremap c0 c^
+nnoremap c^ c0
+nnoremap y0 y^
+nnoremap y^ y0
+
+" start shell
+map <Leader>sh :terminal<CR>
+
+" Most prefer to toggle search highlighting rather than clear the current
+" search results. To clear search highlighting rather than toggle it on
+nmap <silent> <leader>/ :set invhlsearch<CR>
+
+" Find merge conflict markers
+map <leader>fc /\v^[<\|=>]{7}( .*\|$)<CR>
+
+" For when you forget to sudo.. Really Write the file.
+cmap w!! w !sudo tee % >/dev/null
