@@ -1,6 +1,5 @@
 if &rtp =~ 'ctrlp.vim'
-    let g:ctrlp_cmd = 'CtrlPMixed'
-    let g:ctrlp_by_filename = 1
+    let t:ctrlp_by_filename = 1
 
     let g:ctrlp_prompt_mappings = {
                 \ 'PrtSelectMove("j")':   ['<c-n>'],
