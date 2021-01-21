@@ -12,12 +12,12 @@ This plugin follows the standard runtime path structure, and as such it can be i
 
 | Plugin Manager | Install with...                                                             |
 | -------------  | -------------                                                               |
-| Pathogen       | `git clone https://github.com/perfectworks/vim-conf ~/.vim/bundle/vim-conf` |
-| NeoBundle      | `NeoBundle 'perfectworks/vim-conf'`                                         |
-| Vundle         | `Plugin 'perfectworks/vim-conf'`                                            |
-| Plug           | `Plug 'perfectworks/vim-conf'`                                              |
-| Dein           | `call dein#add('perfectworks/vim-conf')`                                    |
-| minpac         | `call minpac#add('perfectworks/vim-conf')`                                  |
+| Pathogen       | `git clone https://github.com/e7h4n/vim-conf ~/.vim/bundle/vim-conf` |
+| NeoBundle      | `NeoBundle 'e7h4n/vim-conf'`                                         |
+| Vundle         | `Plugin 'e7h4n/vim-conf'`                                            |
+| Plug           | `Plug 'e7h4n/vim-conf'`                                              |
+| Dein           | `call dein#add('e7h4n/vim-conf')`                                    |
+| minpac         | `call minpac#add('e7h4n/vim-conf')`                                  |
 
 ## Configuration change
 
