@@ -16,19 +16,21 @@ set smartcase                                      " Case sensitive when uc pres
 set wildmenu
 set autoread
 
+set viminfo^=!
+set sessionoptions-=options
+set viewoptions-=options
+
 " UI
 set cursorline                                     " Highlight current line
 set list                                           " Display specified blank characters
 set number                                         " Line numbers on
 set showmatch                                      " Show matching brackets/parenthesis
 set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
+set signcolumn=yes
+set splitbelow
 
 set backspace=indent,eol,start
 set complete-=i
-
-set viminfo^=!
-set sessionoptions-=options
-set viewoptions-=options
 
 " '#', '-' is an end of word designator
 set iskeyword-=#
@@ -55,13 +57,9 @@ set shiftwidth=4                                   " Use indents of 4 spaces
 set softtabstop=4                                  " Let backspace delete indent
 set tabstop=4                                      " An indentation every four columns
 
-" split window position
-set splitbelow                                     " Puts new split windows to the bottom of the current
-set splitright                                     " Puts new vsplit windows to the right of the current
-
 " Mappings
 
-" term, use <leader>sh to open terminal
+" Use <leader>sh to open terminal
 nnoremap <silent> <leader>sh :term ++rows=10<CR>
 
 " Yank from the cursor to the end of the line, to be consistent with C and D.
@@ -71,7 +69,7 @@ nnoremap Y y$
 nmap gp "0p
 nmap gP "0P
 
-" map double j to <esc>
+" Map double j to <esc>
 inoremap <silent> jj <esc>
 
 " Emacs style course movement under command mode
