@@ -28,6 +28,7 @@ set showmatch                                      " Show matching brackets/pare
 set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
 set signcolumn=yes
 set splitbelow
+set shortmess-=S                                   " Show search result count
 
 set backspace=indent,eol,start
 set complete-=i
